@@ -1,0 +1,8 @@
+dubbo=com.xdubbo.common.serialize.support.dubbo.DubboSerialization
+hessian2=com.xdubbo.common.serialize.support.hessian.Hessian2Serialization
+java=com.xdubbo.common.serialize.support.java.JavaSerialization
+compactedjava=com.xdubbo.common.serialize.support.java.CompactedJavaSerialization
+fastjson=com.xdubbo.common.serialize.support.json.FastJsonSerialization
+nativejava=com.xdubbo.common.serialize.support.nativejava.NativeJavaSerialization
+kryo=com.xdubbo.common.serialize.support.kryo.KryoSerialization
+fst=com.xdubbo.common.serialize.support.fst.FstSerialization

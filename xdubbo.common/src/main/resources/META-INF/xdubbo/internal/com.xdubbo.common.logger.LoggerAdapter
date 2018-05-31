@@ -1,0 +1,4 @@
+slf4j=com.xdubbo.common.logger.slf4j.Slf4jLoggerAdapter
+jcl=com.xdubbo.common.logger.jcl.JclLoggerAdapter
+log4j=com.xdubbo.common.logger.log4j.Log4jLoggerAdapter
+jdk=com.xdubbo.common.logger.jdk.JdkLoggerAdapter

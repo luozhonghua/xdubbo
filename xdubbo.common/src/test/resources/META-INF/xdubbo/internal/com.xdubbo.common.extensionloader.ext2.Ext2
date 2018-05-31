@@ -1,0 +1,3 @@
+impl1=com.xdubbo.common.extensionloader.ext2.impl.Ext2Impl1
+impl2=com.xdubbo.common.extensionloader.ext2.impl.Ext2Impl2
+impl3=com.xdubbo.common.extensionloader.ext2.impl.Ext2Impl3
