@@ -489,6 +489,11 @@ public class ExtensionLoader<T> {
         return (T) instance;
     }
 
+    /**
+     * 扩展点封装异常
+     * @param name
+     * @return 返回未找到扩展点异常信息
+     */
     private IllegalStateException findException(String name) {
         for (Map.Entry<String, IllegalStateException> entry : exceptions.entrySet()) {
             if (entry.getKey().toLowerCase().contains(name.toLowerCase())) {
@@ -496,14 +501,11 @@ public class ExtensionLoader<T> {
             }
         }
         StringBuilder buf = new StringBuilder("No such extension " + type.getName() + " by name " + name);
-
-
         int i = 1;
         for (Map.Entry<String, IllegalStateException> entry : exceptions.entrySet()) {
             if (i == 1) {
                 buf.append(", possible causes: ");
             }
-
             buf.append("\r\n(");
             buf.append(i++);
             buf.append(") ");

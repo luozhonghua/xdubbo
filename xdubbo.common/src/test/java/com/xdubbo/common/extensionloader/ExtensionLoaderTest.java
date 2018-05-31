@@ -134,6 +134,7 @@ public class ExtensionLoaderTest {
             ExtensionLoader.getExtensionLoader(SimpleExt.class).getExtension("XXX");
             fail();
         } catch (IllegalStateException expected) {
+            System.out.println(expected.getMessage());
             assertThat(expected.getMessage(), containsString("No such extension com.xdubbo.common.extensionloader.ext1.SimpleExt by name XXX"));
         }
     }
