@@ -1,0 +1,3 @@
+threadlocal=com.xdubbo.cache.support.threadlocal.ThreadLocalCacheFactory
+lru=com.xdubbo.cache.support.lru.LruCacheFactory
+jcache=com.xdubbo.cache.support.jcache.JCacheFactory

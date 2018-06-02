@@ -1,0 +1,3 @@
+fixed=com.xdubbo.common.threadpool.support.fixed.FixedThreadPool
+cached=com.xdubbo.common.threadpool.support.cached.CachedThreadPool
+limited=com.xdubbo.common.threadpool.support.limited.LimitedThreadPool

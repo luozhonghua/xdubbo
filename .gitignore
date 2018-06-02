@@ -1,0 +1,10 @@
+.classpath
+.project
+.settings
+##class file##
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.iml

@@ -1,0 +1,7 @@
+ls=com.xdubbo.rpc.protocol.dubbo.telnet.ListTelnetHandler
+ps=com.xdubbo.rpc.protocol.dubbo.telnet.PortTelnetHandler
+cd=com.xdubbo.rpc.protocol.dubbo.telnet.ChangeTelnetHandler
+pwd=com.xdubbo.rpc.protocol.dubbo.telnet.CurrentTelnetHandler
+invoke=com.xdubbo.rpc.protocol.dubbo.telnet.InvokeTelnetHandler
+trace=com.xdubbo.rpc.protocol.dubbo.telnet.TraceTelnetHandler
+count=com.xdubbo.rpc.protocol.dubbo.telnet.CountTelnetHandler

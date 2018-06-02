@@ -1,0 +1,4 @@
+index=com.xdubbo.container.page.pages.HomePageHandler
+status=com.xdubbo.container.page.pages.StatusPageHandler
+log=com.xdubbo.container.page.pages.LogPageHandler
+system=com.xdubbo.container.page.pages.SystemPageHandler

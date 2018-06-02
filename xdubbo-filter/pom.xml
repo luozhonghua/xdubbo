@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>xdubbo-parent</artifactId>
+        <groupId>com.xdubbo</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>xdubbo-filter</artifactId>
+    <packaging>pom</packaging>
+    <name>${project.artifactId}</name>
+    <description>The filter module of xdubbo project</description>
+    <properties>
+        <skip_maven_deploy>true</skip_maven_deploy>
+    </properties>
+    <modules>
+        <module>xdubbo-filter-cache</module>
+        <module>xdubbo-filter-validation</module>
+    </modules>
+
+
+</project>

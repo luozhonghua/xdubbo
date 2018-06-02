@@ -1,0 +1,2 @@
+spring=com.xdubbo.config.spring.status.SpringStatusChecker
+datasource=com.xdubbo.config.spring.status.DataSourceStatusChecker

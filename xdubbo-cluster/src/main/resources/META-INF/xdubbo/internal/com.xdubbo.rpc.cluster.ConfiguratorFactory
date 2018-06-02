@@ -1,0 +1,2 @@
+override=com.xdubbo.rpc.cluster.configurator.override.OverrideConfiguratorFactory
+absent=com.xdubbo.rpc.cluster.configurator.absent.AbsentConfiguratorFactory

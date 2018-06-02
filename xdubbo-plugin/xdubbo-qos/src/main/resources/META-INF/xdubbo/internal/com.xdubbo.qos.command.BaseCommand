@@ -1,0 +1,5 @@
+online=com.xdubbo.qos.command.impl.Online
+help=com.xdubbo.qos.command.impl.Help
+quit=com.xdubbo.qos.command.impl.Quit
+ls=com.xdubbo.qos.command.impl.Ls
+offline=com.xdubbo.qos.command.impl.Offline

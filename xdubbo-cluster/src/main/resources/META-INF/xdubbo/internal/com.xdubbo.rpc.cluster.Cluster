@@ -1,0 +1,9 @@
+mock=com.xdubbo.rpc.cluster.support.wrapper.MockClusterWrapper
+failover=com.xdubbo.rpc.cluster.support.FailoverCluster
+failfast=com.xdubbo.rpc.cluster.support.FailfastCluster
+failsafe=com.xdubbo.rpc.cluster.support.FailsafeCluster
+failback=com.xdubbo.rpc.cluster.support.FailbackCluster
+forking=com.xdubbo.rpc.cluster.support.ForkingCluster
+available=com.xdubbo.rpc.cluster.support.AvailableCluster
+mergeable=com.xdubbo.rpc.cluster.support.MergeableCluster
+broadcast=com.xdubbo.rpc.cluster.support.BroadcastCluster

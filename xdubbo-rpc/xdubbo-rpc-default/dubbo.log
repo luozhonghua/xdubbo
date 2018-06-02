@@ -1,0 +1,16 @@
+[main  02/06/18 03:45:22:022 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 03:45:40:040 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 03:46:18:018 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 03:55:23:023 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 03:58:56:056 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 03:59:10:010 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 04:09:57:057 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 04:10:08:008 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 04:33:57:057 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 04:54:16:016 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 04:58:40:040 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 05:00:37:037 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main  02/06/18 05:01:22:022 CST]  INFO using logger: com.xdubbo.common.logger.log4j.Log4jLoggerAdapter 
+[main com.xdubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:65) 02/06/18 05:01:23:023 CST]  INFO  [DUBBO] Start NettyServer bind /0.0.0.0:9020, export /127.0.0.1:9020, dubbo version: 2.0.0, current host: 127.0.0.1 
+[main com.xdubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:273) 02/06/18 05:01:23:023 CST]  INFO  [DUBBO] Successed connect to server /192.168.1.113:9020 from NettyClient 192.168.1.113 using dubbo version 2.0.0, channel is NettyChannel [channel=[id: 0x2c039ac6, /192.168.1.113:51027 => /192.168.1.113:9020]], dubbo version: 2.0.0, current host: 192.168.1.113 
+[main com.xdubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:91) 02/06/18 05:01:23:023 CST]  INFO  [DUBBO] Start NettyClient WIN-20170218BWC/192.168.1.113 connect to the server /192.168.1.113:9020, dubbo version: 2.0.0, current host: 192.168.1.113 

@@ -1,0 +1,2 @@
+server=com.xdubbo.rpc.protocol.dubbo.status.ServerStatusChecker
+threadpool=com.xdubbo.rpc.protocol.dubbo.status.ThreadPoolStatusChecker

@@ -1,0 +1,4 @@
+random=com.xdubbo.rpc.cluster.loadbalance.RandomLoadBalance
+roundrobin=com.xdubbo.rpc.cluster.loadbalance.RoundRobinLoadBalance
+leastactive=com.xdubbo.rpc.cluster.loadbalance.LeastActiveLoadBalance
+consistenthash=com.xdubbo.rpc.cluster.loadbalance.ConsistentHashLoadBalance

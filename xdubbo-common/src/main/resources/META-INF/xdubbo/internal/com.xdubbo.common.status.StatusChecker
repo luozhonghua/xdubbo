@@ -1,0 +1,2 @@
+memory=com.xdubbo.common.status.support.MemoryStatusChecker
+load=com.xdubbo.common.status.support.LoadStatusChecker

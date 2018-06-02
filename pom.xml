@@ -5,13 +5,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xdubbo</groupId>
-    <artifactId>xdubbo</artifactId>
+    <artifactId>xdubbo-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
 
     <modules>
-        <module>xdubbo.common</module>
+
+        <module>xdubbo-rpc</module>
+        <module>xdubbo-common</module>
+        <module>xdubbo-remoting</module>
+        <module>xdubbo-container</module>
+        <module>xdubbo-plugin</module>
+        <module>xdubbo-config</module>
+        <module>xdubbo-registry</module>
+        <module>xdubbo-cluster</module>
+        <module>hessian-lite</module>
+        <module>xdubbo-monitor</module>
+        <module>xdubbo-filter</module>
+
     </modules>
 
 
@@ -23,6 +35,8 @@
         <!-- Common libs -->
         <spring_version>4.3.10.RELEASE</spring_version>
         <javassist_version>3.20.0-GA</javassist_version>
+        <netty_version>3.2.5.Final</netty_version>
+        <netty4_version>4.0.35.Final</netty4_version>
         <mina_version>1.1.7</mina_version>
         <cglib_version>2.2</cglib_version>
         <fastjson_version>1.2.31</fastjson_version>
@@ -34,6 +48,13 @@
         <fst_version>2.48-jdk-6</fst_version>
         <sorcerer_version>0.8</sorcerer_version>
         <velocity_version>1.7</velocity_version>
+        <jetty_version>6.1.26</jetty_version>
+        <servlet_version>3.1.0</servlet_version>
+        <hessian_version>4.0.38</hessian_version>
+        <validation_version>1.1.0.Final</validation_version>
+        <hibernate_validator_version>5.4.1.Final</hibernate_validator_version>
+        <jel_version>3.0.1-b08</jel_version>
+        <jcache_version>1.0.0</jcache_version>
         <!-- Log libs -->
         <slf4j_version>1.7.25</slf4j_version>
         <jcl_version>1.2</jcl_version>
@@ -77,9 +98,29 @@
                 <version>${javassist_version}</version>
             </dependency>
             <dependency>
+                <groupId>org.jboss.netty</groupId>
+                <artifactId>netty</artifactId>
+                <version>${netty_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty4_version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.apache.mina</groupId>
                 <artifactId>mina-core</artifactId>
                 <version>${mina_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>jetty</artifactId>
+                <version>${jetty_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${servlet_version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.cxf</groupId>
@@ -130,6 +171,31 @@
                 <groupId>org.apache.velocity</groupId>
                 <artifactId>velocity</artifactId>
                 <version>${velocity_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.caucho</groupId>
+                <artifactId>hessian</artifactId>
+                <version>${hessian_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.validation</groupId>
+                <artifactId>validation-api</artifactId>
+                <version>${validation_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>${hibernate_validator_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glassfish</groupId>
+                <artifactId>javax.el</artifactId>
+                <version>${jel_version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.cache</groupId>
+                <artifactId>cache-api</artifactId>
+                <version>${jcache_version}</version>
             </dependency>
             <!-- Log libs -->
             <dependency>

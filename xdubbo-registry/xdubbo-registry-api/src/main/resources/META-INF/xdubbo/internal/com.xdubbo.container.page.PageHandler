@@ -1,0 +1,3 @@
+registries=com.xdubbo.registry.pages.RegistriesPageHandler
+registered=com.xdubbo.registry.pages.RegisteredPageHandler
+subscribed=com.xdubbo.registry.pages.SubscribedPageHandler

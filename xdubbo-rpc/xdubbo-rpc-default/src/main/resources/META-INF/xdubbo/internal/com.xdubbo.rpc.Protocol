@@ -1,0 +1,1 @@
+dubbo=com.xdubbo.rpc.protocol.dubbo.DubboProtocol

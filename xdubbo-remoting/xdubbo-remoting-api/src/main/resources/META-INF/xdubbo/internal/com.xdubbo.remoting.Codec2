@@ -1,0 +1,3 @@
+transport=com.xdubbo.remoting.transport.codec.TransportCodec
+telnet=com.xdubbo.remoting.telnet.codec.TelnetCodec
+exchange=com.xdubbo.remoting.exchange.codec.ExchangeCodec

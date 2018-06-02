@@ -1,0 +1,11 @@
+map=com.xdubbo.rpc.cluster.merger.MapMerger
+set=com.xdubbo.rpc.cluster.merger.SetMerger
+list=com.xdubbo.rpc.cluster.merger.ListMerger
+byte=com.xdubbo.rpc.cluster.merger.ByteArrayMerger
+char=com.xdubbo.rpc.cluster.merger.CharArrayMerger
+short=com.xdubbo.rpc.cluster.merger.ShortArrayMerger
+int=com.xdubbo.rpc.cluster.merger.IntArrayMerger
+long=com.xdubbo.rpc.cluster.merger.LongArrayMerger
+float=com.xdubbo.rpc.cluster.merger.FloatArrayMerger
+double=com.xdubbo.rpc.cluster.merger.DoubleArrayMerger
+boolean=com.xdubbo.rpc.cluster.merger.BooleanArrayMerger

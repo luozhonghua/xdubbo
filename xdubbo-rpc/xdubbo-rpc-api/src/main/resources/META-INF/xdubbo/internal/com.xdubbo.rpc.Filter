@@ -1,0 +1,14 @@
+echo=com.xdubbo.rpc.filter.EchoFilter
+generic=com.xdubbo.rpc.filter.GenericFilter
+genericimpl=com.xdubbo.rpc.filter.GenericImplFilter
+token=com.xdubbo.rpc.filter.TokenFilter
+accesslog=com.xdubbo.rpc.filter.AccessLogFilter
+activelimit=com.xdubbo.rpc.filter.ActiveLimitFilter
+classloader=com.xdubbo.rpc.filter.ClassLoaderFilter
+context=com.xdubbo.rpc.filter.ContextFilter
+consumercontext=com.xdubbo.rpc.filter.ConsumerContextFilter
+exception=com.xdubbo.rpc.filter.ExceptionFilter
+executelimit=com.xdubbo.rpc.filter.ExecuteLimitFilter
+deprecated=com.xdubbo.rpc.filter.DeprecatedFilter
+compatible=com.xdubbo.rpc.filter.CompatibleFilter
+timeout=com.xdubbo.rpc.filter.TimeoutFilter

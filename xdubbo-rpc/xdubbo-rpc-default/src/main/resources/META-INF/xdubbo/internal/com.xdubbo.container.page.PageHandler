@@ -1,0 +1,2 @@
+servers=com.xdubbo.rpc.protocol.dubbo.page.ServersPageHandler
+clients=com.xdubbo.rpc.protocol.dubbo.page.ClientsPageHandler

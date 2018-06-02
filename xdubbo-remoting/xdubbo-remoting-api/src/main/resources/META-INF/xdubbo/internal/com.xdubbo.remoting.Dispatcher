@@ -1,0 +1,5 @@
+all=com.xdubbo.remoting.transport.dispatcher.all.AllDispatcher
+direct=com.xdubbo.remoting.transport.dispatcher.direct.DirectDispatcher
+message=com.xdubbo.remoting.transport.dispatcher.message.MessageOnlyDispatcher
+execution=com.xdubbo.remoting.transport.dispatcher.execution.ExecutionDispatcher
+connection=com.xdubbo.remoting.transport.dispatcher.connection.ConnectionOrderedDispatcher
