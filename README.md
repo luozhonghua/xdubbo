@@ -36,7 +36,7 @@ xdubbo从扩展点也叫微内核设计着手思考如何重构，并配合本�
 
 
 ---
-#欢迎====富有想像力和设计力的全栈小伙伴来约!
-#作者  luozhonghua\<br>
-#博客    https://blog.csdn.net/luozhonghua2014\<br>
-#联系人  QQ 172257861  微信 Lzh20140128  \<br>
+#欢迎~~~~富有想像力和设计力的全栈小伙伴来约!</br>
+#作者    luozhonghua</br>
+#博客    https://blog.csdn.net/luozhonghua2014</br>
+#联系    QQ 172257861  微信 Lzh20140128 </br>
