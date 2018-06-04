@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.xdubbo.test.Main
+Agent-Class: com.xdubbo.agent.MyAgent
+Can-Redefine-Classes: true
