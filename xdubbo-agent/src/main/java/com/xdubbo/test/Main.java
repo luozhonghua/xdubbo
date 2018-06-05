@@ -15,6 +15,7 @@ public class Main {
             //被替换后，打印lastName.firstName
             System.out.println(new User("firstName","lastName").getName()+"  pid:"+getPID());
             Thread.sleep(5000);
+            //JVMProcess.findProcessIdByProcessName("1111");
         }
     }
 
