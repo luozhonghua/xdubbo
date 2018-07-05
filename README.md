@@ -32,7 +32,7 @@ xdubbo从扩展点也叫微内核设计着手思考如何重构，并配合本�
 6，发布版本、记录</br>
 
 ##xdubbo子产品输出规划</br>
-1，全链路监控APM基于pinpoint (https://blog.csdn.net/luozhonghua2014/article/details/80593785)</br>
+1, 全链路监控APM基于pinpoint (https://blog.csdn.net/luozhonghua2014/article/details/80593785)</br>
 2, xdubbo LAAS基于Mesos      (https://blog.csdn.net/luozhonghua2014/article/details/80925053)
 
 ---
